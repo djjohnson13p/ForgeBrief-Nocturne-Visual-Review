@@ -7,10 +7,16 @@ The main ForgeBrief project remains local. This repository intentionally does no
 ## Current Visual
 
 ```text
-nocturne_vrm0_v4_staging.png
+blender_import_inspection.png
 ```
 
-This image shows the v4 Nocturne VRM0 Godot import probe: the refined VRoid prototype with a darker built-in dress direction, dark violet-black hair, reduced school-uniform styling, and the same isolated Godot import status overlay. Some built-in white trim/default-costume read remains, so this is still a prototype visual review asset.
+This image shows a Blender import inspection of the v4 Nocturne VRM0 asset. It is not an edited avatar and not a new runtime surface; it is visual evidence for the Blender/custom asset-production gate. The inspection makes the remaining issue clearer: the avatar imports, but the white frill/default costume structure still dominates the design.
+
+Latest Godot staging screenshot:
+
+```text
+nocturne_vrm0_v4_staging.png
+```
 
 Earlier comparison images are also retained:
 
@@ -19,6 +25,7 @@ nocturne_vrm0_import_scene.png
 nocturne_vrm0_staging_polish.png
 nocturne_vrm0_v2_staging.png
 nocturne_vrm0_v3_staging.png
+nocturne_vrm0_v4_staging.png
 ```
 
 ## How To Review
@@ -31,11 +38,9 @@ Suggested inspection focus:
 - scale
 - pose and orientation
 - materials/textures
-- whether the v4 built-in VRoid dress direction is closer to Nocturne
-- whether the school-uniform/default VRoid read is sufficiently reduced
-- whether the remaining white trim is acceptable for the next prototype step
-- lighting and camera framing
-- whether the next local ForgeBrief task should refine the model further or proceed toward controlled movement
+- whether the white frill/default-costume structure is too dominant
+- whether Blender material/color editing is worth testing on a copy
+- whether the next local ForgeBrief task should do a copied-asset material/color test or switch asset-production strategy
 
 ## Not Included
 
@@ -53,4 +58,5 @@ This visual-review repository does not include:
 - ForgeBrief source/runtime files
 - Godot project folders
 - VRoid project files
+- Blender scripts or project files
 - secrets or tokens

@@ -5,6 +5,38 @@
 Filename:
 
 ```text
+blender_import_inspection.png
+```
+
+Source local project artifact:
+
+```text
+scratch\dale_gothic_companion_trial\blender_probes\nocturne_v4_inspection\artifacts\blender_import_inspection.png
+```
+
+Local ForgeBrief commit:
+
+```text
+50887a113cb87b2abaf729c13289edbe994ff54d
+```
+
+Image SHA-256:
+
+```text
+64FCA0611FE567B02682E21DDC14618BCDD61BC060F6F4DD4951E4EC9463B29C
+```
+
+Image size:
+
+```text
+1,012,175 bytes
+```
+
+## Previous V4 Godot Artifact
+
+Filename:
+
+```text
 nocturne_vrm0_v4_staging.png
 ```
 
@@ -162,22 +194,18 @@ Image size:
 
 ## Description
 
-The current v4 image shows the isolated Nocturne Godot VRM0 import probe after the third VRoid refinement pass. The avatar keeps the dark violet-black hair and replaces the dark school-uniform/jacket direction with a darker built-in dress direction. The school-uniform read is reduced, but some built-in white trim/default-costume read remains.
+The current Blender inspection image shows the v4 Nocturne VRM0 asset imported into Blender from a copied file. It is not an edited avatar and not a new runtime surface. It exists to inspect the current material/costume problem before deciding whether a Blender material/color test is worth the risk.
 
-The overlay states that Godot's built-in `GLTFDocument` loaded the VRM0 file with 3 meshes and 1 skeleton.
+The Blender inspection imported the copied VRM0 with 3 mesh objects, 1 armature, and 17 materials. No export was attempted.
 
 ## What ChatGPT Should Inspect
 
-- Is the v4 avatar visibly closer to Nocturne than the v3 school-uniform prototype?
-- Does the dark violet-black hair read correctly in the Godot render?
-- Is the school-uniform/default VRoid read sufficiently reduced?
-- Is the darker built-in dress direction acceptable as a prototype gothic look, or does it need a different asset-production path?
-- Is the remaining white trim acceptable for now?
-- Is the mild static arm pose acceptable, or should pose/animation become a later gated task?
-- Are materials/textures usable enough for the next prototype step?
-- Is the lighting/camera framing readable?
-- Should the next local ForgeBrief task refine the model further, or proceed toward a small controlled movement/animation probe?
+- Does the Blender inspection confirm that white frills/default-costume structure remains the main visual blocker?
+- Is a copied-asset Blender material/color test worth attempting?
+- Would material recolor be enough, or is the clothing mesh/silhouette itself too far from Nocturne?
+- Should the next local ForgeBrief task try a Blender material/color round-trip, a VRoid custom texture pass, or a licensed/commissioned asset path?
+- Should movement remain blocked until the avatar reads more clearly as Nocturne?
 
 ## Scope Boundary
 
-This artifact is visual proof only. It does not prove full VRM semantics, expressions, spring bones, MToon fidelity, outfit changes, voice, tracking, or desktop-pet behavior.
+This artifact is visual proof only. It does not prove Blender export, Godot re-import after Blender edits, full VRM semantics, expressions, spring bones, MToon fidelity, outfit changes, voice, tracking, or desktop-pet behavior.
