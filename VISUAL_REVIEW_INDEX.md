@@ -1,6 +1,38 @@
 # Nocturne Visual Review Index
 
-## Artifact
+## Current Artifact
+
+Filename:
+
+```text
+nocturne_vrm0_staging_polish.png
+```
+
+Source local project artifact:
+
+```text
+scratch\dale_gothic_companion_trial\godot_probes\nocturne_vrm0_import_probe\artifacts\nocturne_vrm0_staging_polish.png
+```
+
+Local ForgeBrief commit:
+
+```text
+ae9a876b482706ab28ad06ac0b94a0f104bc3e97
+```
+
+Image SHA-256:
+
+```text
+BB12DF7D1F9A7288F085AB6C91986FFEE94C9A098064F57C3F4EE007C1E94F2A
+```
+
+Image size:
+
+```text
+112,877 bytes
+```
+
+## Previous Baseline Artifact
 
 Filename:
 
@@ -34,16 +66,18 @@ Image size:
 
 ## Description
 
-The image shows the isolated Nocturne Godot VRM0 import probe. The prototype avatar is visible in a dark/violet Godot scene. The overlay states that Godot's built-in `GLTFDocument` loaded the VRM0 file with 3 meshes and 1 skeleton.
+The current polished image shows the isolated Nocturne Godot VRM0 import probe with the avatar larger, clearer, better lit, and mildly posed out of the strict T-pose. The earlier baseline image remains available as proof of the first technical import.
+
+The overlay states that Godot's built-in `GLTFDocument` loaded the VRM0 file with 3 meshes and 1 skeleton.
 
 ## What ChatGPT Should Inspect
 
-- Is the imported avatar clearly visible?
-- Is the avatar scale reasonable for the frame?
-- Is the pose/orientation acceptable for a first import proof?
+- Is the imported avatar now clearly visible enough for review?
+- Is the scale/framing improved enough compared with the first technical proof?
+- Is the mild static arm pose acceptable, or should pose/animation become the next gated task?
 - Are materials/textures usable enough for a prototype?
 - Is the lighting/camera framing readable?
-- Should the next local ForgeBrief task fix framing/materials, or proceed toward a small controlled movement/animation probe?
+- Should the next local ForgeBrief task fix materials/framing further, or proceed toward a small controlled movement/animation probe?
 
 ## Scope Boundary
 

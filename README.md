@@ -7,10 +7,16 @@ The main ForgeBrief project remains local. This repository intentionally does no
 ## Current Visual
 
 ```text
-nocturne_vrm0_import_scene.png
+nocturne_vrm0_staging_polish.png
 ```
 
-This image shows the Nocturne VRM0 Godot import probe: a front-facing imported prototype avatar in an isolated Godot scene with the import status overlay.
+This image shows the polished Nocturne VRM0 Godot import probe: a clearer, closer, better-lit imported prototype avatar in an isolated Godot scene with the import status overlay.
+
+The earlier technical-proof image is also retained:
+
+```text
+nocturne_vrm0_import_scene.png
+```
 
 ## How To Review
 
