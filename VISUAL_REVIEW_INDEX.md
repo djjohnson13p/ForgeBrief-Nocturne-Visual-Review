@@ -5,6 +5,38 @@
 Filename:
 
 ```text
+nocturne_vrm0_v3_staging.png
+```
+
+Source local project artifact:
+
+```text
+scratch\dale_gothic_companion_trial\godot_probes\nocturne_vrm0_import_probe\artifacts\nocturne_vrm0_v3_staging.png
+```
+
+Local ForgeBrief commit:
+
+```text
+0edd5cbfffca3e92419b8c8c09a26e1320a8510e
+```
+
+Image SHA-256:
+
+```text
+9027DF312EF0E7D64C7ED45DAA12FF0B517DFC0756AE06CA3A8E34D8A083FDAE
+```
+
+Image size:
+
+```text
+129,151 bytes
+```
+
+## Previous V2 Artifact
+
+Filename:
+
+```text
 nocturne_vrm0_v2_staging.png
 ```
 
@@ -98,15 +130,16 @@ Image size:
 
 ## Description
 
-The current v2 image shows the isolated Nocturne Godot VRM0 import probe after the VRoid refinement pass. The avatar now has dark violet-black hair and a darker built-in dress silhouette, making it visibly closer to the gothic Nocturne direction than the prior plain prototype.
+The current v3 image shows the isolated Nocturne Godot VRM0 import probe after the second VRoid refinement pass. The avatar keeps the dark violet-black hair but removes the dominant white apron/maid dress in favor of a dark jacket/top, dark skirt, and small dark neck accent.
 
 The overlay states that Godot's built-in `GLTFDocument` loaded the VRM0 file with 3 meshes and 1 skeleton.
 
 ## What ChatGPT Should Inspect
 
-- Is the v2 avatar visibly closer to Nocturne than the generic prototype?
+- Is the v3 avatar visibly closer to Nocturne than the v2 maid-style prototype?
 - Does the dark violet-black hair read correctly in the Godot render?
-- Is the built-in dress direction acceptable as a prototype gothic look, or does it need another VRoid refinement pass?
+- Is the apron/maid read sufficiently reduced?
+- Is the built-in dark jacket/skirt direction acceptable as a prototype gothic look, or does it need another VRoid refinement pass?
 - Is the mild static arm pose acceptable, or should pose/animation become a later gated task?
 - Are materials/textures usable enough for the next prototype step?
 - Is the lighting/camera framing readable?

@@ -7,16 +7,17 @@ The main ForgeBrief project remains local. This repository intentionally does no
 ## Current Visual
 
 ```text
-nocturne_vrm0_v2_staging.png
+nocturne_vrm0_v3_staging.png
 ```
 
-This image shows the v2 Nocturne VRM0 Godot import probe: the refined VRoid prototype with dark violet-black hair, a darker built-in dress silhouette, and the same isolated Godot import status overlay.
+This image shows the v3 Nocturne VRM0 Godot import probe: the refined VRoid prototype with dark violet-black hair, the white apron/maid dress removed, a dark jacket/top, dark skirt, and the same isolated Godot import status overlay.
 
 Earlier comparison images are also retained:
 
 ```text
 nocturne_vrm0_import_scene.png
 nocturne_vrm0_staging_polish.png
+nocturne_vrm0_v2_staging.png
 ```
 
 ## How To Review
@@ -29,7 +30,8 @@ Suggested inspection focus:
 - scale
 - pose and orientation
 - materials/textures
-- whether the v2 built-in VRoid dress/hair direction is closer to Nocturne
+- whether the v3 built-in VRoid jacket/skirt direction is closer to Nocturne
+- whether the apron/maid look is sufficiently reduced
 - lighting and camera framing
 - whether the next local ForgeBrief task should refine the model further or proceed toward controlled movement
 
@@ -42,6 +44,8 @@ This visual-review repository does not include:
 - `nocturne_avatar_vrm0.vrm`
 - `nocturne_avatar_v2.vrm`
 - `nocturne_avatar_v2_vrm0.vrm`
+- `nocturne_avatar_v3.vrm`
+- `nocturne_avatar_v3_vrm0.vrm`
 - ForgeBrief source/runtime files
 - Godot project folders
 - VRoid project files
