@@ -5,6 +5,38 @@
 Filename:
 
 ```text
+nocturne_v4_material_test_blender.png
+```
+
+Source local project artifact:
+
+```text
+scratch\dale_gothic_companion_trial\blender_probes\nocturne_v4_material_test\artifacts\nocturne_v4_material_test_blender.png
+```
+
+Local ForgeBrief commit:
+
+```text
+8c769d3bf39a4e45a80d28f89fac5871048321fe
+```
+
+Image SHA-256:
+
+```text
+57B72B156BC5B2DA2D555053B8FA0890F5DCF23D271B1A19A05CF9BC27F340EE
+```
+
+Image size:
+
+```text
+1,665,123 bytes
+```
+
+## Previous Blender Inspection
+
+Filename:
+
+```text
 blender_import_inspection.png
 ```
 
@@ -194,16 +226,16 @@ Image size:
 
 ## Description
 
-The current Blender inspection image shows the v4 Nocturne VRM0 asset imported into Blender from a copied file. It is not an edited avatar and not a new runtime surface. It exists to inspect the current material/costume problem before deciding whether a Blender material/color test is worth the risk.
+The current Blender material-test image shows the v4 Nocturne VRM0 asset imported from a copied file and recolored in Blender for screenshot review only. It is not an edited runtime avatar and no modified model export is published here.
 
-The Blender inspection imported the copied VRM0 with 3 mesh objects, 1 armature, and 17 materials. No export was attempted.
+The material test darkens clothing, hair, and trim toward black/violet/silver while preserving the face and skin materials. No modified VRM or GLB export was attempted.
 
 ## What ChatGPT Should Inspect
 
-- Does the Blender inspection confirm that white frills/default-costume structure remains the main visual blocker?
-- Is a copied-asset Blender material/color test worth attempting?
-- Would material recolor be enough, or is the clothing mesh/silhouette itself too far from Nocturne?
-- Should the next local ForgeBrief task try a Blender material/color round-trip, a VRoid custom texture pass, or a licensed/commissioned asset path?
+- Does the darker material direction move the avatar closer to Nocturne?
+- Are the remaining frill/default-costume shapes still too dominant?
+- Is a material/texture round-trip worth testing, or does the mesh/clothing silhouette need a different route?
+- Should the next local ForgeBrief task try a controlled Blender export/re-import, a VRoid custom texture pass, or a different free/local asset-production route?
 - Should movement remain blocked until the avatar reads more clearly as Nocturne?
 
 ## Scope Boundary

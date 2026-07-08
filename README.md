@@ -7,10 +7,16 @@ The main ForgeBrief project remains local. This repository intentionally does no
 ## Current Visual
 
 ```text
-blender_import_inspection.png
+nocturne_v4_material_test_blender.png
 ```
 
-This image shows a Blender import inspection of the v4 Nocturne VRM0 asset. It is not an edited avatar and not a new runtime surface; it is visual evidence for the Blender/custom asset-production gate. The inspection makes the remaining issue clearer: the avatar imports, but the white frill/default costume structure still dominates the design.
+This image shows a copied-asset Blender material/color test on the v4 Nocturne VRM0 asset. It is not a new runtime surface and no modified VRM/GLB is included here. The test darkens hair, clothing, and trim materials toward black/violet/silver to judge whether material work can move the avatar closer to Nocturne.
+
+Previous Blender inspection:
+
+```text
+blender_import_inspection.png
+```
 
 Latest Godot staging screenshot:
 
@@ -38,9 +44,10 @@ Suggested inspection focus:
 - scale
 - pose and orientation
 - materials/textures
-- whether the white frill/default-costume structure is too dominant
-- whether Blender material/color editing is worth testing on a copy
-- whether the next local ForgeBrief task should do a copied-asset material/color test or switch asset-production strategy
+- whether the darker black/violet/silver material direction helps
+- whether the remaining frill/default-costume structure is still too dominant
+- whether material work is enough or texture/mesh/clothing work is needed next
+- whether movement should remain blocked until the avatar reads more clearly as Nocturne
 
 ## Not Included
 
@@ -59,4 +66,5 @@ This visual-review repository does not include:
 - Godot project folders
 - VRoid project files
 - Blender scripts or project files
+- Blender `.blend` files
 - secrets or tokens
