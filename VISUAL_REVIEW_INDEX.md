@@ -5,6 +5,38 @@
 Filename:
 
 ```text
+nocturne_vrm0_v4_staging.png
+```
+
+Source local project artifact:
+
+```text
+scratch\dale_gothic_companion_trial\godot_probes\nocturne_vrm0_import_probe\artifacts\nocturne_vrm0_v4_staging.png
+```
+
+Local ForgeBrief commit:
+
+```text
+441306fbaaf2d97e0f378e92382fefabf9af4f9d
+```
+
+Image SHA-256:
+
+```text
+E62B3EA13136FD570CFCF2D31306BF33CAA5BEB78F073C13838BAB7ACB7D2B43
+```
+
+Image size:
+
+```text
+149,030 bytes
+```
+
+## Previous V3 Artifact
+
+Filename:
+
+```text
 nocturne_vrm0_v3_staging.png
 ```
 
@@ -130,16 +162,17 @@ Image size:
 
 ## Description
 
-The current v3 image shows the isolated Nocturne Godot VRM0 import probe after the second VRoid refinement pass. The avatar keeps the dark violet-black hair but removes the dominant white apron/maid dress in favor of a dark jacket/top, dark skirt, and small dark neck accent.
+The current v4 image shows the isolated Nocturne Godot VRM0 import probe after the third VRoid refinement pass. The avatar keeps the dark violet-black hair and replaces the dark school-uniform/jacket direction with a darker built-in dress direction. The school-uniform read is reduced, but some built-in white trim/default-costume read remains.
 
 The overlay states that Godot's built-in `GLTFDocument` loaded the VRM0 file with 3 meshes and 1 skeleton.
 
 ## What ChatGPT Should Inspect
 
-- Is the v3 avatar visibly closer to Nocturne than the v2 maid-style prototype?
+- Is the v4 avatar visibly closer to Nocturne than the v3 school-uniform prototype?
 - Does the dark violet-black hair read correctly in the Godot render?
-- Is the apron/maid read sufficiently reduced?
-- Is the built-in dark jacket/skirt direction acceptable as a prototype gothic look, or does it need another VRoid refinement pass?
+- Is the school-uniform/default VRoid read sufficiently reduced?
+- Is the darker built-in dress direction acceptable as a prototype gothic look, or does it need a different asset-production path?
+- Is the remaining white trim acceptable for now?
 - Is the mild static arm pose acceptable, or should pose/animation become a later gated task?
 - Are materials/textures usable enough for the next prototype step?
 - Is the lighting/camera framing readable?
